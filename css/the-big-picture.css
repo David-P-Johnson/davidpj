@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@media screen and (orientation:landscape) {
+     #logoscape {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    height: 80%;
+    }
+}
+
+@media screen and (orientation:portrait) {
+     #logoscape {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    height: 40%;
+    }
+}
+    
+
+ @media screen and (min-width: 880px) and (orientation:landscape) {
+    #splash-logo {
+  display: block !important;
+  position: absolute;
+  max-height: 90%;
+  max-width: 80vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+        }
+    }
+
+@media screen and (min-width: 880px) and (orientation:portrait) {
+    #splash-logo {
+  display: block !important;
+  position: absolute;
+  max-height: 90%;
+  max-width: 80vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+        }
+    }
+
+    @media screen and (max-width: 880px) {
+    #splash-logo {
+  display: block !important;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+        }
+    }
+
+
+#cream-bg {
+	background-color: #F8F8F8;
+}
+
+
+#port-col {
+	width: 450px;
+	height: 450px;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+	position: absolute;
+	contain: content;
+	overflow: hidden;
+	transition: .8s;
+}
+		section#port-col:hover {
+			opacity: .3;
+			transition: .8s;
+			cursor: pointer;
+		}
+
+
+#port-box {
+	display: block;
+	contain: content;
+	height: 550px;
+	width: 100%;
+}
+
+.blue {
+	background-color: #3759C1;
+}
+
+.yellow {
+	background-color: #FFEE73;
+}
+
+.half-height {
+    contain: content;
+    height: 60%;
+}
