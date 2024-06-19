@@ -7237,37 +7237,47 @@ h4 {
 }
 
 .buttonTop {
-	background: linear-gradient(to bottom right, #ff0015, #ff58ff);
+    background: steelblue;
+	/*
+    background: linear-gradient(to bottom right, #ff0015, #ff58ff);
 	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
+    */
 }
 
 .buttonMid {
+    background: steelblue;
+    /*
 	background: linear-gradient(to bottom right, #ff0015, #ff58ff);
 	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
+    */
 }
 
 .buttonLower {
+    background: steelblue;
+    /*
 	background: linear-gradient(to bottom right, #ff0015, #ff58ff);
 	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
+    */
 }
 
+/*
 a.buttonTop:hover {
     background: linear-gradient(45deg, #0097ff, #ff00ef);
-    /*transition: .5s;*/
     box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
 }
+*/
 
-a.buttonMid:hover {
-    background: linear-gradient(-45deg, #0097ff, #ff00ef);
-    /*transition: .5s;*/
-    box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
-}
+/*
+        a.buttonMid:hover {
+            background: linear-gradient(-45deg, #0097ff, #ff00ef);
+            box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
+        }
 
-a.buttonLower:hover {
-    background: linear-gradient(90deg, #0097ff, #ff00ef);
-    /*transition: .5s;*/
-    box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
-}
+        a.buttonLower:hover {
+            background: linear-gradient(90deg, #0097ff, #ff00ef);
+            box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
+        }
+*/
 
 @media screen and (orientation: portrait) {
     a.button {
