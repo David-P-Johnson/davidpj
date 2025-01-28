@@ -32,14 +32,6 @@ audio:not([controls]) {
     display: none
 }
 
-a {
-    background-color: transparent
-}
-
-a:active,a:hover {
-    outline: 0
-}
-
 abbr[title] {
     border-bottom: 1px dotted
 }
@@ -1363,21 +1355,6 @@ button,input,select,textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus,a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
-
-a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
 }
 
 figure {
@@ -7236,48 +7213,6 @@ h4 {
     transition: .5s;
 }
 
-.buttonTop {
-    background: steelblue;
-	/*
-    background: linear-gradient(to bottom right, #ff0015, #ff58ff);
-	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
-    */
-}
-
-.buttonMid {
-    background: steelblue;
-    /*
-	background: linear-gradient(to bottom right, #ff0015, #ff58ff);
-	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
-    */
-}
-
-.buttonLower {
-    background: steelblue;
-    /*
-	background: linear-gradient(to bottom right, #ff0015, #ff58ff);
-	box-shadow: 3px 3px 0px 3px rgba(255,238,115,1);
-    */
-}
-
-/*
-a.buttonTop:hover {
-    background: linear-gradient(45deg, #0097ff, #ff00ef);
-    box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
-}
-*/
-
-/*
-        a.buttonMid:hover {
-            background: linear-gradient(-45deg, #0097ff, #ff00ef);
-            box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
-        }
-
-        a.buttonLower:hover {
-            background: linear-gradient(90deg, #0097ff, #ff00ef);
-            box-shadow: 0px 0px 0px 0px rgba(255,238,115,1);
-        }
-*/
 
 @media screen and (orientation: portrait) {
     a.button {
@@ -7299,51 +7234,4 @@ a.buttonTop:hover {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-}
-
-@media screen and (orientation: landscape) {
-    a.button {
-        font-family: 'Bungee';
-        display: block;
-        font-size: large;
-        max-width: 30%;
-        min-width: 300px;
-        height: 40px;
-        line-height: 40px;
-        transition: .5s;
-        color: #f7f5f7;
-        border: none;
-        text-align: center;
-        right: 0;
-        left: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-}
-
-a {
-    background-color: transparent;
-}
-
-a:active, a:hover {
-    text-decoration: none;
-}
-
-.port-img {
-    max-height: 450px;
-    background-size: cover;
-    position: absolute;
-    transition: .8s;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-
-.port-img:hover {
-    transform: scale(2);
-    transition: .5s;
 }
