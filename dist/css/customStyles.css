@@ -1,0 +1,29 @@
+.media-grid {
+    
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust spacing between photos */
+  }
+  
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+.portfolioImage {
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.bgImg {
+    background-image: url("../assets/davidpjBackground.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
